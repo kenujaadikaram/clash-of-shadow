@@ -16,6 +16,40 @@ const d13= document.getElementById("d13");
 const d14= document.getElementById("d14");
 const d15= document.getElementById("d15");
 const d16= document.getElementById("d16");
+//movement system
+function d4sf(){
+    if(ch!=1){
+        setTimeout(d4f, 300);
+    }
+    if(ch==1){
+        d4f();
+    }
+}
+function d8sf(){
+    if(ch!=1){
+        setTimeout(d8f, 300);
+    }
+    if(ch==1){
+        d8f();
+    }
+}
+function d12sf(){
+    if(ch!=1){
+        setTimeout(d12f, 300);
+    }
+    if(ch==1){
+        d12f();
+    }
+}
+function d16sf(){
+    if(ch!=1){
+        setTimeout(d16f, 300);
+    }
+    if(ch==1){
+        d16f();
+    }
+}
+
 function cch(){
     ch = ch +1;
     if(ch == 4){
@@ -651,9 +685,13 @@ if (l==11){
                             l=16;
             }
 }
+//game enter
 
 
 
+                       
+                
+                    
 
                        
                 
